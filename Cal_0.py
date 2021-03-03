@@ -20,23 +20,23 @@ while(1):
     x = int(input("Select an Operation"))
 
     if ( x == 1):
-        y = float(input("Enter First Operand"))
-        z = float(input("Enter Second Operand"))
+        y = float(input("Enter First Operand:"))
+        z = float(input("Enter Second Operand:"))
         add(y,z)
         continue
     if ( x == 2):
-        y = float(input("Enter First Operand"))
-        z = float(input("Enter Second Operand"))
+        y = float(input("Enter First Operand:"))
+        z = float(input("Enter Second Operand:"))
         sub(y,z)
         continue
     if ( x == 3):
-        y = float(input("Enter First Operand"))
-        z = float(input("Enter Second Operand"))
+        y = float(input("Enter First Operand:"))
+        z = float(input("Enter Second Operand:"))
         mul(y,z)
         continue
     if ( x == 4):
-        y = float(input("Enter First Operand"))
-        z = float(input("Enter Second Operand"))
+        y = float(input("Enter First Operand:"))
+        z = float(input("Enter Second Operand:"))
         div(y,z)
         continue
 
