@@ -7,10 +7,11 @@ def main():
         exit()
     print("The complementary angle is", 90 - a)
 
-restart = print("Do you want to test the code again (answer by typing yes or no) ?").lower()
-if restart == "yes":
-    main()
-else:
-    exit()
-   
 main()
+
+while(1):    
+    restart = print("Do you want to test the code again (answer by typing yes or no) ?").lower()
+    if restart == "yes":
+        main()
+    else:
+        exit()
